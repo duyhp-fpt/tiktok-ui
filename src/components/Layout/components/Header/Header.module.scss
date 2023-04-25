@@ -18,6 +18,7 @@
   align-items: center;
   justify-content: space-between;
   caret-color: var(--primary);
+  padding: 0 var(--default-layout-horizontal-spacer);
 }
 
 // .logo {
@@ -101,4 +102,5 @@
   margin-left: 28px;
   padding: 4px 8px;
   background-color: transparent;
+  cursor: pointer;
 }
