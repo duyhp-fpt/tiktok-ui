@@ -21,10 +21,6 @@
   padding: 0 var(--default-layout-horizontal-spacer);
 }
 
-// .logo {
-
-// }
-
 .search {
   position: relative;
   width: 361px;
@@ -101,9 +97,9 @@
 }
 
 // Actions
-.actions {
-  position: relative;
+.action {
   display: flex;
+  position: relative;
   font-size: 2.2rem;
   color: #161823;
   background-color: transparent;
@@ -122,7 +118,7 @@
   font-size: 1.4rem;
   font-weight: 600;
   color: var(--white);
-  font-family: 'ProximaNova', sans-serif;
+  font-family: "ProximaNova", sans-serif;
   background-color: var(--primary);
 }
 
@@ -135,10 +131,12 @@
 }
 
 .action-btn {
+  position: relative;
+  display: flex;
   font-size: 2.2rem;
   color: #161823;
   background-color: transparent;
-  padding: 4px 12px;
+  padding: 4px 10px;
   cursor: pointer;
 }
 
